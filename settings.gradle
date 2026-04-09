@@ -1,0 +1,12 @@
+pluginManagement {
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.id == 'com.android.application') {
+                useModule('com.android.tools.build:gradle:8.0.2')
+            }
+        }
+    }
+}
+
+rootProject.name = 'animedrive-extension'
+include ':app'
