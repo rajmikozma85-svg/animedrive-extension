@@ -16,11 +16,6 @@ android {
     }
 }
 
-repositories {
-    maven { url 'https://jitpack.io' }
-}
-
 dependencies {
     implementation 'androidx.core:core-ktx:1.10.0'
-    compileOnly 'com.github.aniyomiorg:extensions-lib:1.4'
 }
