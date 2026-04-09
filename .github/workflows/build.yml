@@ -12,11 +12,11 @@ jobs:
       - uses: actions/setup-java@v3
         with:
           java-version: '17'
-          distribution: 'temurin'
+          distribution: temurin
       - name: Build
         run: ./gradlew assembleRelease
       - name: Upload APK
         uses: actions/upload-artifact@v3
         with:
           name: animedrive-extension
-          path: '**/*.apk
+          path: '**/*.apk'
